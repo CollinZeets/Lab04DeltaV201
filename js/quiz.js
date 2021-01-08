@@ -44,58 +44,7 @@ function yesNoQuestions(){
   }
 }
 yesNoQuestions();
-/*
-answerFirst = answerFirst.toLowerCase();
-if (answerFirst === "n" || answerFirst === "no") {
-  alert("correct!");
-  //console.log('Correct!')
-  points++;
-} else {
-  alert("Incorrect...");
-  //console.log('Incorrect...')
-}
 
-let answerSecond = prompt("Is summer my favorite season?"); 
-answerSecond = answerSecond.toLowerCase();
-if (answerSecond === "n" || answerSecond === "no") {
-  alert("Correct!");
-  //console.log('Correct!')
-  points++;
-} else {
-  alert("Incorrect...");
-  //console.log('Incorrect...')
-}
-let answerThird = prompt("Is my name Collin?");
-answerThird = answerThird.toLowerCase();
-if (answerThird === "y" || answerThird === "yes") {
-  alert("Correct!");
-  //console.log('Correct!')
-  points++;
-} else {
-  alert("Incorrect...");
-  //console.log('Incorrect...')
-}
-let answerFourth = prompt("Is sushi my favorite food?");
-answerFourth = answerFourth.toLowerCase();
-if (answerFourth === "y" || answerFourth === "yes") {
-  alert("Correct!");
-  //console.log('Correct!')
-  points++;
-} else {
-  alert("Incorrect...");
-  //console.log('Incorrect...')
-}
-let answerFifth = prompt("Am I 22 years old?");
-answerFifth = answerFifth.toLowerCase();
-if (answerFifth === "y" || answerFifth === "yes") {
-  alert("Correct!");
-  //console.log('Correct!')
-  points++;
-} else {
-  alert("Incorrect...");
-  //console.log('Incorrect...')
-}
-*/
 let attempt = 0;
 function numberGuess() {
     
@@ -126,7 +75,6 @@ function bandGame() {
     "Pantera",
     "Disturbed",
   ];
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label for the label idea and syntax
   outer: for (attempt = 0; attempt < 6; attempt++) {
     let bandAnswer = prompt("What bands do I like?").toLowerCase();
     console.log(bandAnswer);
